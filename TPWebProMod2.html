@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            background-color: #e01a1a;
+            display: block;
+            border-radius:30%;
+            object-fit: cover;
+        }
+        .skills-table {
+            margin: 20px 0;
+            width: 100%;
+            text-align: left;
+        }
+        .contact-form {
+            margin: 20px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .social-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profil Pribadi</h1>
+
+        <div class="profile">
+            <div>
+                <img src="foto.jpg" alt="Foto Profil">
+                <p>Foto Profil</p>
+            </div>
+            <div>
+                <video width="200" height="auto" controls>
+                    <source src="cihuy.mp4" type="video/mp4">
+                    Video tidak dapat diputar.
+                </video>
+                <p>Video Perkenalan</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>Tentang Saya</h2>
+            <p>Halo! Nama lengkapku Anju Manginar Angelo Sitanggang, tapi panggil aja Anju, biar lebih akrab. Sekarang aku berumur 20 tahun, dan saat ini lagi menjalani tahun ketiga kuliah di Telkom University. Aku ambil jurusan Teknologi Informasi di bawah Fakultas Informatika (FIF), jadi udah lumayan terjun ke dunia IT dan semua hal seru yang berhubungan dengan teknologi.</p>
+
+            <p>sibuk kuliah, aku juga aktif di UKM Teater Titik. Teater ini bener-bener jadi tempat buatku menyalurkan kreativitas dan berekspresi. Di Teater Titik, aku ketemu banyak teman dengan passion yang sama dalam dunia seni peran. Nggak cuma tentang akting, tapi juga belajar tentang berbagai aspek di balik layar. Rasanya seru banget bisa balance antara dunia teknologi dan seni peran, dua hal yang kelihatannya beda, tapi bisa saling melengkapi.</p>
+                
+            <p>Jadi, itulah sedikit tentang aku! Kalau mau ngobrol tentang IT atau seni teater, feel free, kita pasti bisa sharing banyak hal seru!</p>
+        </section>
+
+        <section>
+            <h2>Keterampilan</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>Keterampilan</th>
+                    <th>Tingkat</th>
+                </tr>
+                <tr>
+                    <td>Pemrograman</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Pengembangan Web</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Database Management</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Jaringan dan Keamanan</td>
+                    <td>Begineer</td>
+                </tr>
+            </table>
+        </section>
+        
+
+        <section class="contact-form">
+            <h2>Hubungi Saya</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+
+        <section class="social-links">
+            <h2>Media Sosial:</h2>
+            <a href="https://www.instagram.com/anju__sitanggang/">Instagram</a> |
+            <a href="https://x.com/infobmkg?lang=en">Twitter</a> |
+            <a href="https://www.tiktok.com/@bp_tiktok?lang=en">TikTok</a>
+        </section>
+    </div>
+</body>
+</html>
